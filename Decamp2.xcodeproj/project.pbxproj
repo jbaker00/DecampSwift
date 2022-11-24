@@ -14,6 +14,12 @@
 		4C5D27A4292EB9330032F992 /* Decamp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27A3292EB9330032F992 /* Decamp2Tests.swift */; };
 		4C5D27AE292EB9330032F992 /* Decamp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27AD292EB9330032F992 /* Decamp2UITests.swift */; };
 		4C5D27B0292EB9330032F992 /* Decamp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */; };
+		4C5D27C0292EDAE70032F992 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27BF292EDAE70032F992 /* WebView.swift */; };
+		4CFF6347292EE54B00A1B270 /* my.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF6346292EE54A00A1B270 /* my.html */; };
+		4CFF63492930011600A1B270 /* FromBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF63482930011600A1B270 /* FromBus.swift */; };
+		4CFF634B2930129100A1B270 /* ToBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF634A2930129100A1B270 /* ToBus.swift */; };
+		4CFF634E2930146500A1B270 /* FindBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF634D2930146500A1B270 /* FindBus.swift */; };
+		4CFF6350293028C200A1B270 /* SwiftUI_Ad_Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF634F293028C200A1B270 /* SwiftUI_Ad_Banner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		4C5D27A9292EB9330032F992 /* Decamp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Decamp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5D27AD292EB9330032F992 /* Decamp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2UITests.swift; sourceTree = "<group>"; };
 		4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C5D27BF292EDAE70032F992 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4CFF6346292EE54A00A1B270 /* my.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = my.html; sourceTree = "<group>"; };
+		4CFF63482930011600A1B270 /* FromBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromBus.swift; sourceTree = "<group>"; };
+		4CFF634A2930129100A1B270 /* ToBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBus.swift; sourceTree = "<group>"; };
+		4CFF634D2930146500A1B270 /* FindBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBus.swift; sourceTree = "<group>"; };
+		4CFF634F293028C200A1B270 /* SwiftUI_Ad_Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Ad_Banner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +87,10 @@
 		4C5D2785292EB9320032F992 = {
 			isa = PBXGroup;
 			children = (
+				4CFF634F293028C200A1B270 /* SwiftUI_Ad_Banner.swift */,
+				4CFF634C293012A200A1B270 /* Views */,
 				4C5D2790292EB9320032F992 /* Decamp2 */,
+				4CFF6345292EE4EF00A1B270 /* Supporting Files */,
 				4C5D27A2292EB9330032F992 /* Decamp2Tests */,
 				4C5D27AC292EB9330032F992 /* Decamp2UITests */,
 				4C5D278F292EB9320032F992 /* Products */,
@@ -100,6 +115,7 @@
 				4C5D2795292EB9330032F992 /* Assets.xcassets */,
 				4C5D2797292EB9330032F992 /* Decamp2.entitlements */,
 				4C5D2798292EB9330032F992 /* Preview Content */,
+				4C5D27BF292EDAE70032F992 /* WebView.swift */,
 			);
 			path = Decamp2;
 			sourceTree = "<group>";
@@ -127,6 +143,24 @@
 				4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */,
 			);
 			path = Decamp2UITests;
+			sourceTree = "<group>";
+		};
+		4CFF6345292EE4EF00A1B270 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CFF6346292EE54A00A1B270 /* my.html */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CFF634C293012A200A1B270 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CFF634A2930129100A1B270 /* ToBus.swift */,
+				4CFF63482930011600A1B270 /* FromBus.swift */,
+				4CFF634D2930146500A1B270 /* FindBus.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFF6347292EE54B00A1B270 /* my.html in Resources */,
 				4C5D279A292EB9330032F992 /* Preview Assets.xcassets in Resources */,
 				4C5D2796292EB9330032F992 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CFF634B2930129100A1B270 /* ToBus.swift in Sources */,
+				4CFF634E2930146500A1B270 /* FindBus.swift in Sources */,
+				4C5D27C0292EDAE70032F992 /* WebView.swift in Sources */,
 				4C5D2794292EB9320032F992 /* ContentView.swift in Sources */,
+				4CFF63492930011600A1B270 /* FromBus.swift in Sources */,
 				4C5D2792292EB9320032F992 /* Decamp2App.swift in Sources */,
+				4CFF6350293028C200A1B270 /* SwiftUI_Ad_Banner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
