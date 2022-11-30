@@ -20,6 +20,8 @@
 		4C5D27AE292EB9330032F992 /* Decamp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27AD292EB9330032F992 /* Decamp2UITests.swift */; };
 		4C5D27B0292EB9330032F992 /* Decamp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */; };
 		4C5D27C0292EDAE70032F992 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27BF292EDAE70032F992 /* WebView.swift */; };
+		4CD0051D2936F90A008B8CCA /* ThirtyThreeToNYC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0051C2936F90A008B8CCA /* ThirtyThreeToNYC.swift */; };
+		4CD0051F2936F91C008B8CCA /* ThirtyThreeFromNYC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0051E2936F91C008B8CCA /* ThirtyThreeFromNYC.swift */; };
 		4CFF6347292EE54B00A1B270 /* DeCampTwitter.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF6346292EE54A00A1B270 /* DeCampTwitter.html */; };
 		4CFF63492930011600A1B270 /* FromBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF63482930011600A1B270 /* FromBus.swift */; };
 		4CFF634B2930129100A1B270 /* ToBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF634A2930129100A1B270 /* ToBus.swift */; };
@@ -68,6 +70,8 @@
 		4C5D27AD292EB9330032F992 /* Decamp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2UITests.swift; sourceTree = "<group>"; };
 		4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4C5D27BF292EDAE70032F992 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4CD0051C2936F90A008B8CCA /* ThirtyThreeToNYC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyThreeToNYC.swift; sourceTree = "<group>"; };
+		4CD0051E2936F91C008B8CCA /* ThirtyThreeFromNYC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyThreeFromNYC.swift; sourceTree = "<group>"; };
 		4CFF6346292EE54A00A1B270 /* DeCampTwitter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DeCampTwitter.html; sourceTree = "<group>"; };
 		4CFF63482930011600A1B270 /* FromBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromBus.swift; sourceTree = "<group>"; };
 		4CFF634A2930129100A1B270 /* ToBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBus.swift; sourceTree = "<group>"; };
@@ -150,6 +154,7 @@
 				4CFF634C293012A200A1B270 /* Views */,
 				4C5D2790292EB9320032F992 /* Decamp2 */,
 				4CFF6345292EE4EF00A1B270 /* Supporting Files */,
+				4CD0051B2936F8A2008B8CCA /* Models */,
 				4C5D27A2292EB9330032F992 /* Decamp2Tests */,
 				4C5D27AC292EB9330032F992 /* Decamp2UITests */,
 				4C5D278F292EB9320032F992 /* Products */,
@@ -204,6 +209,15 @@
 				4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */,
 			);
 			path = Decamp2UITests;
+			sourceTree = "<group>";
+		};
+		4CD0051B2936F8A2008B8CCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4CD0051C2936F90A008B8CCA /* ThirtyThreeToNYC.swift */,
+				4CD0051E2936F91C008B8CCA /* ThirtyThreeFromNYC.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4CFF6345292EE4EF00A1B270 /* Supporting Files */ = {
@@ -438,11 +452,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD0051D2936F90A008B8CCA /* ThirtyThreeToNYC.swift in Sources */,
 				4C37226A29346048007B1BB7 /* InterstitialAd.swift in Sources */,
 				4C37226F29346056007B1BB7 /* SwiftUIMobileAds.swift in Sources */,
 				4CFF634B2930129100A1B270 /* ToBus.swift in Sources */,
 				4CFF634E2930146500A1B270 /* FindBus.swift in Sources */,
 				4C5D27C0292EDAE70032F992 /* WebView.swift in Sources */,
+				4CD0051F2936F91C008B8CCA /* ThirtyThreeFromNYC.swift in Sources */,
 				4C37226C29346048007B1BB7 /* SwiftUIBannerAd.swift in Sources */,
 				4C5D2794292EB9320032F992 /* ContentView.swift in Sources */,
 				4C37226B29346048007B1BB7 /* FullScreenModifier.swift in Sources */,
