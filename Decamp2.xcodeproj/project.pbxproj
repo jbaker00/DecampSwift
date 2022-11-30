@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C37226A29346048007B1BB7 /* InterstitialAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C37226629346043007B1BB7 /* InterstitialAd.swift */; };
+		4C37226B29346048007B1BB7 /* FullScreenModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C37226729346045007B1BB7 /* FullScreenModifier.swift */; };
+		4C37226C29346048007B1BB7 /* SwiftUIBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C37226829346046007B1BB7 /* SwiftUIBannerAd.swift */; };
+		4C37226D29346048007B1BB7 /* RewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C37226929346048007B1BB7 /* RewardedAd.swift */; };
+		4C37226F29346056007B1BB7 /* SwiftUIMobileAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C37226E29346056007B1BB7 /* SwiftUIMobileAds.swift */; };
 		4C5D2792292EB9320032F992 /* Decamp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D2791292EB9320032F992 /* Decamp2App.swift */; };
 		4C5D2794292EB9320032F992 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D2793292EB9320032F992 /* ContentView.swift */; };
 		4C5D2796292EB9330032F992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D2795292EB9330032F992 /* Assets.xcassets */; };
@@ -15,11 +20,13 @@
 		4C5D27AE292EB9330032F992 /* Decamp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27AD292EB9330032F992 /* Decamp2UITests.swift */; };
 		4C5D27B0292EB9330032F992 /* Decamp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */; };
 		4C5D27C0292EDAE70032F992 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27BF292EDAE70032F992 /* WebView.swift */; };
-		4CFF6347292EE54B00A1B270 /* my.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF6346292EE54A00A1B270 /* my.html */; };
+		4CFF6347292EE54B00A1B270 /* DeCampTwitter.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF6346292EE54A00A1B270 /* DeCampTwitter.html */; };
 		4CFF63492930011600A1B270 /* FromBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF63482930011600A1B270 /* FromBus.swift */; };
 		4CFF634B2930129100A1B270 /* ToBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF634A2930129100A1B270 /* ToBus.swift */; };
 		4CFF634E2930146500A1B270 /* FindBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF634D2930146500A1B270 /* FindBus.swift */; };
-		4CFF6350293028C200A1B270 /* SwiftUI_Ad_Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF634F293028C200A1B270 /* SwiftUI_Ad_Banner.swift */; };
+		5315EAC9FE4B809A4041EF36 /* libPods-Decamp2-Decamp2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B494000DDD0D89ABEEE1D66 /* libPods-Decamp2-Decamp2UITests.a */; };
+		D54F4181FC442005D2825F95 /* libPods-Decamp2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5541BA56E565E4B891C4E002 /* libPods-Decamp2.a */; };
+		D7BB1FB78789956F0917FA9C /* libPods-Decamp2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6049824E98348DE3B47A82D /* libPods-Decamp2Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4197616986AB67456BDB7B59 /* Pods-Decamp2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decamp2Tests.debug.xcconfig"; path = "Target Support Files/Pods-Decamp2Tests/Pods-Decamp2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		421479DB6D36E6617A1C70BD /* Pods-Decamp2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decamp2Tests.release.xcconfig"; path = "Target Support Files/Pods-Decamp2Tests/Pods-Decamp2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C013B7029345EBB0083EBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4C013B7329345FA90083EBCA /* SwiftUIMobileAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUIMobileAds.h; sourceTree = "<group>"; };
+		4C37226629346043007B1BB7 /* InterstitialAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialAd.swift; sourceTree = "<group>"; };
+		4C37226729346045007B1BB7 /* FullScreenModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullScreenModifier.swift; sourceTree = "<group>"; };
+		4C37226829346046007B1BB7 /* SwiftUIBannerAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIBannerAd.swift; sourceTree = "<group>"; };
+		4C37226929346048007B1BB7 /* RewardedAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardedAd.swift; sourceTree = "<group>"; };
+		4C37226E29346056007B1BB7 /* SwiftUIMobileAds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIMobileAds.swift; sourceTree = "<group>"; };
 		4C5D278E292EB9320032F992 /* Decamp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decamp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5D2791292EB9320032F992 /* Decamp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2App.swift; sourceTree = "<group>"; };
 		4C5D2793292EB9320032F992 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,11 +68,17 @@
 		4C5D27AD292EB9330032F992 /* Decamp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2UITests.swift; sourceTree = "<group>"; };
 		4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4C5D27BF292EDAE70032F992 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		4CFF6346292EE54A00A1B270 /* my.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = my.html; sourceTree = "<group>"; };
+		4CFF6346292EE54A00A1B270 /* DeCampTwitter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DeCampTwitter.html; sourceTree = "<group>"; };
 		4CFF63482930011600A1B270 /* FromBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromBus.swift; sourceTree = "<group>"; };
 		4CFF634A2930129100A1B270 /* ToBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBus.swift; sourceTree = "<group>"; };
 		4CFF634D2930146500A1B270 /* FindBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBus.swift; sourceTree = "<group>"; };
-		4CFF634F293028C200A1B270 /* SwiftUI_Ad_Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Ad_Banner.swift; sourceTree = "<group>"; };
+		5541BA56E565E4B891C4E002 /* libPods-Decamp2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Decamp2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B494000DDD0D89ABEEE1D66 /* libPods-Decamp2-Decamp2UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Decamp2-Decamp2UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1316F5320D9FD64508061D /* Pods-Decamp2-Decamp2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decamp2-Decamp2UITests.release.xcconfig"; path = "Target Support Files/Pods-Decamp2-Decamp2UITests/Pods-Decamp2-Decamp2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D7374F4E0F7BF4C135763FD /* Pods-Decamp2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decamp2.release.xcconfig"; path = "Target Support Files/Pods-Decamp2/Pods-Decamp2.release.xcconfig"; sourceTree = "<group>"; };
+		A9B56FDE081948252BAEB4B0 /* Pods-Decamp2-Decamp2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decamp2-Decamp2UITests.debug.xcconfig"; path = "Target Support Files/Pods-Decamp2-Decamp2UITests/Pods-Decamp2-Decamp2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6049824E98348DE3B47A82D /* libPods-Decamp2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Decamp2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F929D479E8BB2CD55BAF35B0 /* Pods-Decamp2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decamp2.debug.xcconfig"; path = "Target Support Files/Pods-Decamp2/Pods-Decamp2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54F4181FC442005D2825F95 /* libPods-Decamp2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7BB1FB78789956F0917FA9C /* libPods-Decamp2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,22 +102,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5315EAC9FE4B809A4041EF36 /* libPods-Decamp2-Decamp2UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E5CBCEC1E0B3ACE4DC45FE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F929D479E8BB2CD55BAF35B0 /* Pods-Decamp2.debug.xcconfig */,
+				8D7374F4E0F7BF4C135763FD /* Pods-Decamp2.release.xcconfig */,
+				A9B56FDE081948252BAEB4B0 /* Pods-Decamp2-Decamp2UITests.debug.xcconfig */,
+				6B1316F5320D9FD64508061D /* Pods-Decamp2-Decamp2UITests.release.xcconfig */,
+				4197616986AB67456BDB7B59 /* Pods-Decamp2Tests.debug.xcconfig */,
+				421479DB6D36E6617A1C70BD /* Pods-Decamp2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C013B7129345F760083EBCA /* GAds */ = {
+			isa = PBXGroup;
+			children = (
+				4C37226E29346056007B1BB7 /* SwiftUIMobileAds.swift */,
+				4C013B7329345FA90083EBCA /* SwiftUIMobileAds.h */,
+				4C013B7229345FA90083EBCA /* Views */,
+			);
+			path = GAds;
+			sourceTree = "<group>";
+		};
+		4C013B7229345FA90083EBCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C37226729346045007B1BB7 /* FullScreenModifier.swift */,
+				4C37226629346043007B1BB7 /* InterstitialAd.swift */,
+				4C37226929346048007B1BB7 /* RewardedAd.swift */,
+				4C37226829346046007B1BB7 /* SwiftUIBannerAd.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		4C5D2785292EB9320032F992 = {
 			isa = PBXGroup;
 			children = (
-				4CFF634F293028C200A1B270 /* SwiftUI_Ad_Banner.swift */,
+				4C013B7129345F760083EBCA /* GAds */,
 				4CFF634C293012A200A1B270 /* Views */,
 				4C5D2790292EB9320032F992 /* Decamp2 */,
 				4CFF6345292EE4EF00A1B270 /* Supporting Files */,
 				4C5D27A2292EB9330032F992 /* Decamp2Tests */,
 				4C5D27AC292EB9330032F992 /* Decamp2UITests */,
 				4C5D278F292EB9320032F992 /* Products */,
+				0E5CBCEC1E0B3ACE4DC45FE2 /* Pods */,
+				80A031AC94DB152298F4CCE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,8 +171,8 @@
 		4C5D2790292EB9320032F992 /* Decamp2 */ = {
 			isa = PBXGroup;
 			children = (
+				4C013B7029345EBB0083EBCA /* Info.plist */,
 				4C5D2791292EB9320032F992 /* Decamp2App.swift */,
-				4C5D2793292EB9320032F992 /* ContentView.swift */,
 				4C5D2795292EB9330032F992 /* Assets.xcassets */,
 				4C5D2797292EB9330032F992 /* Decamp2.entitlements */,
 				4C5D2798292EB9330032F992 /* Preview Content */,
@@ -148,7 +209,7 @@
 		4CFF6345292EE4EF00A1B270 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4CFF6346292EE54A00A1B270 /* my.html */,
+				4CFF6346292EE54A00A1B270 /* DeCampTwitter.html */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,11 +217,22 @@
 		4CFF634C293012A200A1B270 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4C5D2793292EB9320032F992 /* ContentView.swift */,
 				4CFF634A2930129100A1B270 /* ToBus.swift */,
 				4CFF63482930011600A1B270 /* FromBus.swift */,
 				4CFF634D2930146500A1B270 /* FindBus.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		80A031AC94DB152298F4CCE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5541BA56E565E4B891C4E002 /* libPods-Decamp2.a */,
+				5B494000DDD0D89ABEEE1D66 /* libPods-Decamp2-Decamp2UITests.a */,
+				C6049824E98348DE3B47A82D /* libPods-Decamp2Tests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C5D27B3292EB9330032F992 /* Build configuration list for PBXNativeTarget "Decamp2" */;
 			buildPhases = (
+				266E097E37CBEA79AEE6CB4B /* [CP] Check Pods Manifest.lock */,
 				4C5D278A292EB9320032F992 /* Sources */,
 				4C5D278B292EB9320032F992 /* Frameworks */,
 				4C5D278C292EB9320032F992 /* Resources */,
@@ -187,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C5D27B6292EB9330032F992 /* Build configuration list for PBXNativeTarget "Decamp2Tests" */;
 			buildPhases = (
+				57D143AAF4D836A16A58B673 /* [CP] Check Pods Manifest.lock */,
 				4C5D279B292EB9330032F992 /* Sources */,
 				4C5D279C292EB9330032F992 /* Frameworks */,
 				4C5D279D292EB9330032F992 /* Resources */,
@@ -205,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C5D27B9292EB9330032F992 /* Build configuration list for PBXNativeTarget "Decamp2UITests" */;
 			buildPhases = (
+				EB46CE0CB56E1096DFA468E6 /* [CP] Check Pods Manifest.lock */,
 				4C5D27A5292EB9330032F992 /* Sources */,
 				4C5D27A6292EB9330032F992 /* Frameworks */,
 				4C5D27A7292EB9330032F992 /* Resources */,
@@ -243,7 +318,7 @@
 				};
 			};
 			buildConfigurationList = 4C5D2789292EB9320032F992 /* Build configuration list for PBXProject "Decamp2" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -267,7 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CFF6347292EE54B00A1B270 /* my.html in Resources */,
+				4CFF6347292EE54B00A1B270 /* DeCampTwitter.html in Resources */,
 				4C5D279A292EB9330032F992 /* Preview Assets.xcassets in Resources */,
 				4C5D2796292EB9330032F992 /* Assets.xcassets in Resources */,
 			);
@@ -289,18 +364,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		266E097E37CBEA79AEE6CB4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Decamp2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57D143AAF4D836A16A58B673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Decamp2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB46CE0CB56E1096DFA468E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Decamp2-Decamp2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C5D278A292EB9320032F992 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C37226A29346048007B1BB7 /* InterstitialAd.swift in Sources */,
+				4C37226F29346056007B1BB7 /* SwiftUIMobileAds.swift in Sources */,
 				4CFF634B2930129100A1B270 /* ToBus.swift in Sources */,
 				4CFF634E2930146500A1B270 /* FindBus.swift in Sources */,
 				4C5D27C0292EDAE70032F992 /* WebView.swift in Sources */,
+				4C37226C29346048007B1BB7 /* SwiftUIBannerAd.swift in Sources */,
 				4C5D2794292EB9320032F992 /* ContentView.swift in Sources */,
+				4C37226B29346048007B1BB7 /* FullScreenModifier.swift in Sources */,
 				4CFF63492930011600A1B270 /* FromBus.swift in Sources */,
+				4C37226D29346048007B1BB7 /* RewardedAd.swift in Sources */,
 				4C5D2792292EB9320032F992 /* Decamp2App.swift in Sources */,
-				4CFF6350293028C200A1B270 /* SwiftUI_Ad_Banner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +596,7 @@
 		};
 		4C5D27B4292EB9330032F992 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F929D479E8BB2CD55BAF35B0 /* Pods-Decamp2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +608,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Decamp2/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -486,6 +636,7 @@
 		};
 		4C5D27B5292EB9330032F992 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7374F4E0F7BF4C135763FD /* Pods-Decamp2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -497,6 +648,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Decamp2/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -524,6 +676,7 @@
 		};
 		4C5D27B7292EB9330032F992 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4197616986AB67456BDB7B59 /* Pods-Decamp2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -547,6 +700,7 @@
 		};
 		4C5D27B8292EB9330032F992 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421479DB6D36E6617A1C70BD /* Pods-Decamp2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -570,6 +724,7 @@
 		};
 		4C5D27BA292EB9330032F992 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B56FDE081948252BAEB4B0 /* Pods-Decamp2-Decamp2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -592,6 +747,7 @@
 		};
 		4C5D27BB292EB9330032F992 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1316F5320D9FD64508061D /* Pods-Decamp2-Decamp2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

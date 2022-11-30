@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ToBus: View {
     var body: some View {
+    
         Text("To Bus List")
+        
+        SwiftUIBannerAd(adPosition: .bottom, adUnitId: SwiftUIMobileAds.testBannerId)
+
+        
+        
     }
 }
 

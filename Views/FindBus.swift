@@ -10,6 +10,8 @@ import SwiftUI
 struct FindBus: View {
     var body: some View {
         Text("Find Bus")
+        SwiftUIBannerAd(adPosition: .bottom, adUnitId: SwiftUIMobileAds.testBannerId)
+
     }
 }
 
