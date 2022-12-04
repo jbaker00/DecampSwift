@@ -17,14 +17,44 @@ struct FortyFourFromNYC: Identifiable {
 extension FortyFourFromNYC {
     static let all: [FortyFourFromNYC] = [
         FortyFourFromNYC(
-            city: "W. CALDWELL",
-            busRoute: "44",
-            busStop: "Kirkpatrick Lane"
+            city: "NEW YORK",
+            busRoute: "All",
+            busStop: "Port Authority Bus Terminal"
         ),
         FortyFourFromNYC(
-            city: "CALDWELL",
+            city: "LYNDHURST",
             busRoute: "44",
-            busStop: "Roseland and Bloomfield Ave"
+            busStop: "Ridge Road and Vally Brook Ave"
+        ),
+        FortyFourFromNYC(
+            city: "NORTH ARLINGTON",
+            busRoute: "All",
+            busStop: "Ridge Road and Harding Ave"
+        ),
+        FortyFourFromNYC(
+            city: "KEARNY",
+            busRoute: "44",
+            busStop: "Kearny Ave and Bergan Ave"
+        ),
+        FortyFourFromNYC(
+            city: "HARRISON",
+            busRoute: "All",
+            busStop: "Frank E Rogers Ave and Clevland Ave"
+        ),
+        FortyFourFromNYC(
+            city: "BELLVILLE",
+            busRoute: "44",
+            busStop: "Rutgers Street and Washington Ave"
+        ),
+        FortyFourFromNYC(
+            city: "NORTH NEWARK",
+            busRoute: "All",
+            busStop: "Mt Prospect Ave and Heller Parkway"
+        ),
+        FortyFourFromNYC(
+            city: "BLOOMFIELD",
+            busRoute: "44",
+            busStop: "Franklyn Street and Montgomery Street"
         )
     ]
 }

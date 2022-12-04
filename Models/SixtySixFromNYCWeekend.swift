@@ -17,14 +17,34 @@ struct SixtySixFromNYCWeekend: Identifiable {
 extension SixtySixFromNYCWeekend {
     static let all: [SixtySixFromNYCWeekend] = [
         SixtySixFromNYCWeekend(
-            city: "W. CALDWELL",
-            busRoute: "66",
-            busStop: "Kirkpatrick Lane"
+            city: "NEW YORK",
+            busRoute: "All",
+            busStop: "Port Authority Bus Terminal"
         ),
         SixtySixFromNYCWeekend(
-            city: "CALDWELL",
+            city: "CLIFTON",
             busRoute: "66",
-            busStop: "Roseland and Bloomfield Ave"
+            busStop: "Grove and Vincent Drive"
+        ),
+        SixtySixFromNYCWeekend(
+            city: "UPPER MONTCLAIR",
+            busRoute: "66",
+            busStop: "Bellevue Plaza"
+        ),
+        SixtySixFromNYCWeekend(
+            city: "UPPER MONTCLAIR",
+            busRoute: "66",
+            busStop: "Wathung Plaza"
+        ),
+        SixtySixFromNYCWeekend(
+            city: "MONTCLAIR",
+            busRoute: "66",
+            busStop: "(YMCA) Park St & Bloomfield Ave)"
+        ),
+        SixtySixFromNYCWeekend(
+            city: "WEST ORANGE"",
+            busRoute: "66",
+            busStop: "Mississippi Loop"
         )
     ]
 }

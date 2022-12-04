@@ -16,15 +16,35 @@ struct ThirtyThreeFromNYCWeekend: Identifiable {
 
 extension ThirtyThreeFromNYCWeekend {
     static let all: [ThirtyThreeFromNYCWeekend] = [
-        ThirtyThreeToNYC(
-            city: "W. CALDWELL",
-            busRoute: "33",
-            busStop: "Kirkpatrick Lane"
+        ThirtyThreeFromNYCWeekend(
+            city: "New York",
+            busRoute: "All",
+            busStop: "Port Authority Bus Terminal"
         ),
         ThirtyThreeFromNYCWeekend(
-            city: "CALDWELL",
+            city: "BLOOMFIELD",
             busRoute: "33",
-            busStop: "Roseland and Bloomfield Ave"
+            busStop: "W Passasic and Darling Ave"
+        ),
+        ThirtyThreeFromNYCWeekend(
+            city: "BLOOMFIELD",
+            busRoute: "33",
+            busStop: "Broad and Liberity St"
+        ),
+        ThirtyThreeFromNYCWeekend(
+            city: "MONTCLAIR",
+            busRoute: "33",
+            busStop: "Bloomfield and Gates Ave"
+        ),
+        ThirtyThreeFromNYCWeekend(
+            city: "VERONA",
+            busRoute: "33",
+            busStop: "Bloomfield and Lakeside Ave"
+        ),
+        ThirtyThreeFromNYCWeekend(
+            city: "W CAULDWELL",
+            busRoute: "33",
+            busStop: "Kirkpatrick Lane"
         )
     ]
 }

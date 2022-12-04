@@ -15,7 +15,7 @@ struct ThirtyThreeToNYCWeekend: Identifiable {
 
 }
 
-extension ThirtyThreeToNYCWeekned {
+extension ThirtyThreeToNYCWeekend {
     static let all: [ThirtyThreeToNYCWeekend] = [
         ThirtyThreeToNYCWeekend(
             city: "W. CALDWELL",
@@ -26,6 +26,36 @@ extension ThirtyThreeToNYCWeekned {
             city: "CALDWELL",
             busRoute: "33",
             busStop: "Roseland and Bloomfield Ave"
-        )
+        ),
+        ThirtyThreeToNYCWeekend(
+            city: "VERONA",
+            busRoute: "33",
+            busStop: "Lakeside and Bloomfield Ave"
+        ),
+        ThirtyThreeToNYCWeekend(
+            city: "MONTCLAIR",
+            busRoute: "33",
+            busStop: "Gates and Bloomfield Ave"
+        ),
+        ThirtyThreeToNYCWeekend(
+            city: "BLOOMFIELD",
+            busRoute: "33",
+            busStop: "Broad and Liberity Street"
+        ),
+        ThirtyThreeToNYCWeekend(
+            city: "BLOOMFIELD",
+            busRoute: "33",
+            busStop: "Broad and Watchung Ave"
+        ),
+        ThirtyThreeToNYCWeekend(
+            city: "BLOOMFIELD",
+            busRoute: "33",
+            busStop: "W Passaic and Darling Ave"
+        ),
+        ThirtyThreeToNYCWeekend(
+            city: "New York",
+            busRoute: "All",
+            busStop: "Port Authority Bus Terminal"
+        ),
     ]
 }
