@@ -12,6 +12,16 @@
 		4C37226C29346048007B1BB7 /* SwiftUIBannerAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C37226829346046007B1BB7 /* SwiftUIBannerAd.swift */; };
 		4C37226D29346048007B1BB7 /* RewardedAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C37226929346048007B1BB7 /* RewardedAd.swift */; };
 		4C37226F29346056007B1BB7 /* SwiftUIMobileAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C37226E29346056007B1BB7 /* SwiftUIMobileAds.swift */; };
+		4C489E8C293C46EB008CE6C5 /* ThirtyThreeToNycWeekend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E8B293C46EB008CE6C5 /* ThirtyThreeToNycWeekend.swift */; };
+		4C489E8E293C4700008CE6C5 /* ThirtyThreeFromNycWeekend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E8D293C4700008CE6C5 /* ThirtyThreeFromNycWeekend.swift */; };
+		4C489E90293C4720008CE6C5 /* FofrtyFourToNyc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E8F293C4720008CE6C5 /* FofrtyFourToNyc.swift */; };
+		4C489E92293C4734008CE6C5 /* FortyFourFromNYC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E91293C4734008CE6C5 /* FortyFourFromNYC.swift */; };
+		4C489E94293C4745008CE6C5 /* FortyFourFromNYCWeekend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E93293C4745008CE6C5 /* FortyFourFromNYCWeekend.swift */; };
+		4C489E96293C475E008CE6C5 /* FourtyFourToNycWeekend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E95293C475E008CE6C5 /* FourtyFourToNycWeekend.swift */; };
+		4C489E98293C477E008CE6C5 /* SixtySixToNYC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E97293C477E008CE6C5 /* SixtySixToNYC.swift */; };
+		4C489E9A293C479A008CE6C5 /* SixtySixFromNYC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E99293C479A008CE6C5 /* SixtySixFromNYC.swift */; };
+		4C489E9C293C47AE008CE6C5 /* SixtySixToNYCWeekend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E9B293C47AE008CE6C5 /* SixtySixToNYCWeekend.swift */; };
+		4C489E9E293C47C7008CE6C5 /* SixtySixFromNYCWeekend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C489E9D293C47C7008CE6C5 /* SixtySixFromNYCWeekend.swift */; };
 		4C5D2792292EB9320032F992 /* Decamp2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D2791292EB9320032F992 /* Decamp2App.swift */; };
 		4C5D2794292EB9320032F992 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D2793292EB9320032F992 /* ContentView.swift */; };
 		4C5D2796292EB9330032F992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D2795292EB9330032F992 /* Assets.xcassets */; };
@@ -58,6 +68,16 @@
 		4C37226829346046007B1BB7 /* SwiftUIBannerAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIBannerAd.swift; sourceTree = "<group>"; };
 		4C37226929346048007B1BB7 /* RewardedAd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardedAd.swift; sourceTree = "<group>"; };
 		4C37226E29346056007B1BB7 /* SwiftUIMobileAds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIMobileAds.swift; sourceTree = "<group>"; };
+		4C489E8B293C46EB008CE6C5 /* ThirtyThreeToNycWeekend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyThreeToNycWeekend.swift; sourceTree = "<group>"; };
+		4C489E8D293C4700008CE6C5 /* ThirtyThreeFromNycWeekend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyThreeFromNycWeekend.swift; sourceTree = "<group>"; };
+		4C489E8F293C4720008CE6C5 /* FofrtyFourToNyc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FofrtyFourToNyc.swift; sourceTree = "<group>"; };
+		4C489E91293C4734008CE6C5 /* FortyFourFromNYC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyFourFromNYC.swift; sourceTree = "<group>"; };
+		4C489E93293C4745008CE6C5 /* FortyFourFromNYCWeekend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortyFourFromNYCWeekend.swift; sourceTree = "<group>"; };
+		4C489E95293C475E008CE6C5 /* FourtyFourToNycWeekend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourtyFourToNycWeekend.swift; sourceTree = "<group>"; };
+		4C489E97293C477E008CE6C5 /* SixtySixToNYC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixtySixToNYC.swift; sourceTree = "<group>"; };
+		4C489E99293C479A008CE6C5 /* SixtySixFromNYC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixtySixFromNYC.swift; sourceTree = "<group>"; };
+		4C489E9B293C47AE008CE6C5 /* SixtySixToNYCWeekend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixtySixToNYCWeekend.swift; sourceTree = "<group>"; };
+		4C489E9D293C47C7008CE6C5 /* SixtySixFromNYCWeekend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixtySixFromNYCWeekend.swift; sourceTree = "<group>"; };
 		4C5D278E292EB9320032F992 /* Decamp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decamp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5D2791292EB9320032F992 /* Decamp2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2App.swift; sourceTree = "<group>"; };
 		4C5D2793292EB9320032F992 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -216,6 +236,16 @@
 			children = (
 				4CD0051C2936F90A008B8CCA /* ThirtyThreeToNYC.swift */,
 				4CD0051E2936F91C008B8CCA /* ThirtyThreeFromNYC.swift */,
+				4C489E8B293C46EB008CE6C5 /* ThirtyThreeToNycWeekend.swift */,
+				4C489E8D293C4700008CE6C5 /* ThirtyThreeFromNycWeekend.swift */,
+				4C489E8F293C4720008CE6C5 /* FofrtyFourToNyc.swift */,
+				4C489E91293C4734008CE6C5 /* FortyFourFromNYC.swift */,
+				4C489E95293C475E008CE6C5 /* FourtyFourToNycWeekend.swift */,
+				4C489E93293C4745008CE6C5 /* FortyFourFromNYCWeekend.swift */,
+				4C489E97293C477E008CE6C5 /* SixtySixToNYC.swift */,
+				4C489E99293C479A008CE6C5 /* SixtySixFromNYC.swift */,
+				4C489E9B293C47AE008CE6C5 /* SixtySixToNYCWeekend.swift */,
+				4C489E9D293C47C7008CE6C5 /* SixtySixFromNYCWeekend.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -455,16 +485,26 @@
 				4CD0051D2936F90A008B8CCA /* ThirtyThreeToNYC.swift in Sources */,
 				4C37226A29346048007B1BB7 /* InterstitialAd.swift in Sources */,
 				4C37226F29346056007B1BB7 /* SwiftUIMobileAds.swift in Sources */,
+				4C489E90293C4720008CE6C5 /* FofrtyFourToNyc.swift in Sources */,
+				4C489E8E293C4700008CE6C5 /* ThirtyThreeFromNycWeekend.swift in Sources */,
 				4CFF634B2930129100A1B270 /* ToBus.swift in Sources */,
+				4C489E96293C475E008CE6C5 /* FourtyFourToNycWeekend.swift in Sources */,
 				4CFF634E2930146500A1B270 /* FindBus.swift in Sources */,
+				4C489E94293C4745008CE6C5 /* FortyFourFromNYCWeekend.swift in Sources */,
 				4C5D27C0292EDAE70032F992 /* WebView.swift in Sources */,
+				4C489E9C293C47AE008CE6C5 /* SixtySixToNYCWeekend.swift in Sources */,
 				4CD0051F2936F91C008B8CCA /* ThirtyThreeFromNYC.swift in Sources */,
 				4C37226C29346048007B1BB7 /* SwiftUIBannerAd.swift in Sources */,
+				4C489E98293C477E008CE6C5 /* SixtySixToNYC.swift in Sources */,
+				4C489E9E293C47C7008CE6C5 /* SixtySixFromNYCWeekend.swift in Sources */,
+				4C489E92293C4734008CE6C5 /* FortyFourFromNYC.swift in Sources */,
 				4C5D2794292EB9320032F992 /* ContentView.swift in Sources */,
 				4C37226B29346048007B1BB7 /* FullScreenModifier.swift in Sources */,
 				4CFF63492930011600A1B270 /* FromBus.swift in Sources */,
 				4C37226D29346048007B1BB7 /* RewardedAd.swift in Sources */,
+				4C489E8C293C46EB008CE6C5 /* ThirtyThreeToNycWeekend.swift in Sources */,
 				4C5D2792292EB9320032F992 /* Decamp2App.swift in Sources */,
+				4C489E9A293C479A008CE6C5 /* SixtySixFromNYC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
