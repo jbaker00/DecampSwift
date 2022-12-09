@@ -39,10 +39,10 @@ extension SixtySixFromNYCWeekend {
         SixtySixFromNYCWeekend(
             city: "MONTCLAIR",
             busRoute: "66",
-            busStop: "(YMCA) Park St & Bloomfield Ave)"
+            busStop: "YMCA Park St & Bloomfield Ave)"
         ),
         SixtySixFromNYCWeekend(
-            city: "WEST ORANGE"",
+            city: "WEST ORANGE",
             busRoute: "66",
             busStop: "Mississippi Loop"
         )

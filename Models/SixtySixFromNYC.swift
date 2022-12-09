@@ -44,20 +44,20 @@ extension SixtySixFromNYC {
         SixtySixFromNYC(
             city: "MONTCLAIR",
             busRoute: "66",
-            busStop: "(YMCA) Park St & Bloomfield Ave)"
+            busStop: "YMCA Park St & Bloomfield Ave)"
         ),
         SixtySixFromNYC(
-            city: "WEST ORANGE"",
+            city: "WEST ORANGE",
             busRoute: "66",
             busStop: "Mississippi Loop"
         ),
         SixtySixFromNYC(
-            city: "WEST ORANGE"",
+            city: "WEST ORANGE",
             busRoute: "66",
             busStop: "Crown View Apartments"
         ),
         SixtySixFromNYC(
-            city: "WEST ORANGE"",
+            city: "WEST ORANGE",
             busRoute: "66",
             busStop: "Eagle Rock Ave & Prospect Ave"
         ),

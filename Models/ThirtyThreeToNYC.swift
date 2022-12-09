@@ -60,6 +60,6 @@ extension ThirtyThreeToNYC {
             city: "New York",
             busRoute: "All",
             busStop: "Port Authority Bus Terminal"
-        ),
+        )
     ]
 }

@@ -32,7 +32,8 @@ struct ContentView: View {
                                     .padding(.leading)
                                 
                                 NavigationLink("Gates Ave, Montclair ") {
-                                    FromBus()
+                                    //FromBus()
+                                    StopList(allStops: AllStops.all)
                                 }
                                 .padding(.trailing)
                                 .cornerRadius(10)
@@ -45,7 +46,8 @@ struct ContentView: View {
                                 Label("To:    ", systemImage: /*@START_MENU_TOKEN@*/""/*@END_MENU_TOKEN@*/)
                                     .padding(.leading)
                                 NavigationLink("NYC, Port Authorty") {
-                                    ToBus()
+                                    //ToBus()
+                                    StopList(allStops: AllStops.all)
                                 }
                                 .padding(.trailing)
                                 .cornerRadius(10)

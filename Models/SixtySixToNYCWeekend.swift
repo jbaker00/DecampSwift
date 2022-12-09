@@ -17,7 +17,7 @@ struct SixtySixToNYCWeekend: Identifiable {
 extension SixtySixToNYCWeekend {
     static let all: [SixtySixToNYCWeekend] = [
         SixtySixToNYCWeekend(
-            city: "WEST ORANGE"",
+            city: "WEST ORANGE",
             busRoute: "66",
             busStop: "Mississippi Loop"
         ),

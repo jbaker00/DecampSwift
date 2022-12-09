@@ -28,6 +28,8 @@
 		4C5D27AE292EB9330032F992 /* Decamp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27AD292EB9330032F992 /* Decamp2UITests.swift */; };
 		4C5D27B0292EB9330032F992 /* Decamp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */; };
 		4C5D27C0292EDAE70032F992 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D27BF292EDAE70032F992 /* WebView.swift */; };
+		4C9A99B529426D08006A0CFA /* StopList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A99B429426D08006A0CFA /* StopList.swift */; };
+		4C9A99B729426EC1006A0CFA /* AllStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9A99B629426EC1006A0CFA /* AllStops.swift */; };
 		4CD0051D2936F90A008B8CCA /* ThirtyThreeToNYC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0051C2936F90A008B8CCA /* ThirtyThreeToNYC.swift */; };
 		4CD0051F2936F91C008B8CCA /* ThirtyThreeFromNYC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD0051E2936F91C008B8CCA /* ThirtyThreeFromNYC.swift */; };
 		4CFF6347292EE54B00A1B270 /* DeCampTwitter.html in Resources */ = {isa = PBXBuildFile; fileRef = 4CFF6346292EE54A00A1B270 /* DeCampTwitter.html */; };
@@ -86,6 +88,8 @@
 		4C5D27AD292EB9330032F992 /* Decamp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2UITests.swift; sourceTree = "<group>"; };
 		4C5D27AF292EB9330032F992 /* Decamp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decamp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4C5D27BF292EDAE70032F992 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4C9A99B429426D08006A0CFA /* StopList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopList.swift; sourceTree = "<group>"; };
+		4C9A99B629426EC1006A0CFA /* AllStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStops.swift; sourceTree = "<group>"; };
 		4CD0051C2936F90A008B8CCA /* ThirtyThreeToNYC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyThreeToNYC.swift; sourceTree = "<group>"; };
 		4CD0051E2936F91C008B8CCA /* ThirtyThreeFromNYC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirtyThreeFromNYC.swift; sourceTree = "<group>"; };
 		4CFF6346292EE54A00A1B270 /* DeCampTwitter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DeCampTwitter.html; sourceTree = "<group>"; };
@@ -227,6 +231,14 @@
 			path = Decamp2UITests;
 			sourceTree = "<group>";
 		};
+		4C9A99B329426AF4006A0CFA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4C9A99B429426D08006A0CFA /* StopList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		4CD0051B2936F8A2008B8CCA /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +252,7 @@
 				4C489E99293C479A008CE6C5 /* SixtySixFromNYC.swift */,
 				4C489E9B293C47AE008CE6C5 /* SixtySixToNYCWeekend.swift */,
 				4C489E9D293C47C7008CE6C5 /* SixtySixFromNYCWeekend.swift */,
+				4C9A99B629426EC1006A0CFA /* AllStops.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -259,6 +272,7 @@
 				4CFF634A2930129100A1B270 /* ToBus.swift */,
 				4CFF63482930011600A1B270 /* FromBus.swift */,
 				4CFF634D2930146500A1B270 /* FindBus.swift */,
+				4C9A99B329426AF4006A0CFA /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,7 +354,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					4C5D278D292EB9320032F992 = {
 						CreatedOnToolsVersion = 14.0;
@@ -480,9 +494,11 @@
 				4C37226A29346048007B1BB7 /* InterstitialAd.swift in Sources */,
 				4C37226F29346056007B1BB7 /* SwiftUIMobileAds.swift in Sources */,
 				4C489E90293C4720008CE6C5 /* FofrtyFourToNyc.swift in Sources */,
+				4C9A99B729426EC1006A0CFA /* AllStops.swift in Sources */,
 				4C489E8E293C4700008CE6C5 /* ThirtyThreeFromNycWeekend.swift in Sources */,
 				4CFF634B2930129100A1B270 /* ToBus.swift in Sources */,
 				4CFF634E2930146500A1B270 /* FindBus.swift in Sources */,
+				4C9A99B529426D08006A0CFA /* StopList.swift in Sources */,
 				4C5D27C0292EDAE70032F992 /* WebView.swift in Sources */,
 				4C489E9C293C47AE008CE6C5 /* SixtySixToNYCWeekend.swift in Sources */,
 				4CD0051F2936F91C008B8CCA /* ThirtyThreeFromNYC.swift in Sources */,
@@ -566,6 +582,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -624,6 +641,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -649,8 +667,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Decamp2/Decamp2.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Decamp2/Preview Content\"";
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -689,8 +709,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Decamp2/Decamp2.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Decamp2/Preview Content\"";
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -730,6 +752,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -754,6 +777,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -777,6 +801,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -800,6 +825,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = G3P9A8Z2NP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
