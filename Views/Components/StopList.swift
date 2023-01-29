@@ -12,32 +12,51 @@ struct StopList: View {
     var allStops: [AllStops]
     
     var body: some View {
-        VStack {
-            HStack {
-                Text("\(allStops.count) \(allStops.count > 1 ? "stops" : "stop")")
-                    .font(.headline)
-                    .fontWeight(.medium)
-                    .opacity(0.7)
-                
-                Spacer()
-            }
-            
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 160), spacing: 15)], spacing: 15) {
+        VStack{
+            Text("Drop Down Menu").font(.largeTitle)
+            Menu {
                 ForEach(allStops) { AllStops in
-                    Text("\(AllStops.busStop)")
-                         }
+                    Button(action:{}, label: {
+                        Text("\(AllStops.busStop)")
+                    })
+                }
             }
+        label: {
+            Label(
+                title: {Text("")},
+                icon: {Image(systemName: "plus")}
+            )}
         }
-        .padding(.top)
+        
+        /* VStack {
+         HStack {
+         Text("\(allStops.count) \(allStops.count > 1 ? "stops" : "stop")")
+         .font(.headline)
+         .fontWeight(.medium)
+         .opacity(0.7)
+         
+         Spacer()
+         }
+         ScrollView {
+         ForEach(allStops) { AllStops in
+         Text("\(AllStops.busStop)")
+         }
+         
+         }
+         }*/
+        //.padding(.top)
+        SwiftUIBannerAd(adPosition: .bottom, adUnitId: SwiftUIMobileAds.testBannerId)
+        
+        //.padding(.horizontal)
+        
     }
-    //.padding(.horizontal)
-}
     
     
-
-
-struct StopList_Previews: PreviewProvider {
-    static var previews: some View {
-        StopList(allStops: AllStops.all)
+    
+    
+    struct StopList_Previews: PreviewProvider {
+        static var previews: some View {
+            StopList(allStops: AllStops.all)
+        }
     }
 }
